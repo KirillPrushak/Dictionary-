@@ -208,8 +208,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 331329058}
-        m_TargetAssemblyTypeName: Players, Assembly-CSharp
-        m_MethodName: AddMike
+        m_TargetAssemblyTypeName: DefaultNamespace.AddPlayers, Assembly-CSharp
+        m_MethodName: AddNewPlayers
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1254,16 +1254,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 331329057}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43d211af7f6c6644e9f68ffffcaa3bd1, type: 3}
+  m_Script: {fileID: 11500000, guid: 98d8b03cf8be431b99c268564940aa0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _prefabeMiki: {fileID: 461017067790424990, guid: a2eae1e237235d8498dc835abb0f328e,
-    type: 3}
-  _prefabeShrek: {fileID: 499975073661725955, guid: 0cb8066ccc50f824da9d4f0d53ff1a7d,
-    type: 3}
   namesDisplay: {fileID: 2064529610}
-  _addMiki: {fileID: 2020702828}
-  _addShrek: {fileID: 1644836437}
+  _prefabePlayers: {fileID: 461017067790424990, guid: a2eae1e237235d8498dc835abb0f328e,
+    type: 3}
+  _positionPlayers: {fileID: 2020702827}
 --- !u!4 &331329059
 Transform:
   m_ObjectHideFlags: 0
